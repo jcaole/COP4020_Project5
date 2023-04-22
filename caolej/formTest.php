@@ -3,11 +3,12 @@
    Course:      COP4020
    Project:     5
    Author:      Jeremy Caole
-   Description:
+   Description: formTest.php webpage, issues and retrieves queries.
+   3 options: show all records, based on zipcode, and based on state_name
 
  -------------------------------------------------------------------->
  <?php
- 
+
 require('db.php');
 
 if (!isset($_SESSION)) {
@@ -63,7 +64,7 @@ if (!isset($_SESSION)) {
             }
             print "</table>";
         }
-    } 
+    }
     if (isset($_POST['zipcode'])) {
         $zipcode = $_POST['zipcode'];
         $sql = "SELECT * FROM project5Table WHERE zipcode = '$zipcode'";
@@ -86,8 +87,8 @@ if (!isset($_SESSION)) {
                 print "</tr>";
             }
             print "</table>";
-        } 
-    } 
+        }
+    }
     if (isset($_POST['state_name'])) {
         $state_name = $_POST['state_name'];
         $sql = "SELECT * FROM project5Table WHERE state_name = '$state_name'";

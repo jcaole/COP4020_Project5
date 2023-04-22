@@ -3,8 +3,8 @@
    Course:      COP4020
    Project:     5
    Author:      Jeremy Caole
-   Description:
-
+   Description: drops and creates project5Table. reads data from table
+   and displays data.
  -------------------------------------------------------------------->
 
  <?php
