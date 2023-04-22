@@ -87,5 +87,24 @@ select * from testTable;
 */
 
 
+/*
+create database project5DB;
+
+CREATE TABLE `project5Table` (
+  `id` int(11) NOT NULL,
+  `name` varchar(50) NOT NULL,
+  `description` text NOT NULL
+) ENGINE=CSV DEFAULT CHARSET=utf8mb4;
+
+INSERT INTO project5Table VALUES (1,'name1','description1');
+INSERT INTO project5Table VALUES (2,'name2','description2');
+INSERT INTO project5Table VALUES (3,'name3','description3');
+INSERT INTO project5Table VALUES (4,'name4','description4');
+INSERT INTO project5Table VALUES (5,'name5','description5');
+
+select * from project5Table;
+*/
+
+
 
 ?>
