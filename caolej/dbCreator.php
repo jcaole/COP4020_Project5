@@ -7,7 +7,7 @@
    and displays data.
  -------------------------------------------------------------------->
 
- <?php
+<?php
 require('db.php');
 
 if (!isset($_SESSION)) {

@@ -7,7 +7,7 @@
    3 options: show all records, based on zipcode, and based on state_name
 
  -------------------------------------------------------------------->
- <?php
+<?php
 
 require('db.php');
 
